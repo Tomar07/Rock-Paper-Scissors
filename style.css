@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(2, 1, 10);
+    
+}
+
+header{
+    background: white;
+    padding: 20px;
+}
+header> h1{
+    color: rgb(2, 1, 10);
+    text-align: center;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+    font-size: 55px;
+}
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    color: white;
+    font-size: 48px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.lable{
+    background-color: rgb(238, 74, 10);
+    font-size: 20px;
+    padding: 2px;
+
+}
+#user-lable{
+    position: absolute;
+    top: 35px;
+    left: -25px;
+}
+#computer-lable{
+    position: absolute;
+    top: 35px;
+    left: 175px;
+}
+.message{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.choices{
+text-align: center;
+margin: 20px;
+}
+.choice{
+    display: inline-block;
+    
+    border: 20px solid rgb(23, 17, 71);
+     /* width: 50px; 
+     height: 20px; */
+    border-radius: 50%;
+    margin: 20px 20px;
+    transition: all 0.3s ease;
+    
+}
+#move{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.choice:hover{
+    cursor: pointer;
+    background: white;
+}
+/* .greenglow{
+    border: 30px solid #4dcc7d;
+    box-shadow: 0 0 10p #31b43a;
+}
+.redglow{
+    border: 20px solid #fc121b;
+    box-shadow: 0 0 10p #d01115;
+}
+.greyglow{
+    border: 20px solid #464647;
+    box-shadow: 0 0 10p #25292b;
+} */
